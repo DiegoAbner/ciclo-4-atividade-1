@@ -1,0 +1,42 @@
+.Titulo{
+    color: green;
+}
+
+body {
+    background: darkseagreen;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    margin: 0;
+}
+
+#character-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.character-card {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+}
+
+.character-card img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
